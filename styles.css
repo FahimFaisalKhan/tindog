@@ -1,0 +1,125 @@
+#a {
+  border: 1px;
+}
+#header {
+  background: #c7bea2;
+  padding: 3% 15%;
+  color: aliceblue;
+}
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: "Montserrat-bold", sans-serif;
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+  font-size: 1.5rem;
+}
+.rotate {
+  transform: rotateZ(30deg);
+  margin-left: 30%;
+}
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 5.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.dwnld-bt {
+  margin: 5% 10% 15% 0;
+}
+.title-img {
+  width: 58%;
+}
+.navbar-dark .navbar-brand {
+  color: #558776;
+}
+.navbar-brand img {
+  border-radius: 36px;
+}
+#main {
+  background: #ffd8cc;
+  text-align: center;
+  padding: 15% 7%;
+}
+.box {
+  margin: auto 20%;
+}
+.color {
+  color: #7d5a50;
+}
+.color:hover {
+  color: #c7bea2;
+  cursor: pointer;
+}
+#carosel {
+  background: #c7bea2;
+  text-align: center;
+}
+.crsl-img {
+  margin-top: 5%;
+  border-radius: 50%;
+  width: 15%;
+}
+em {
+  font-weight: bold;
+  color: white;
+}
+.carousel-item {
+  padding: 16% 20%;
+}
+.brand {
+  padding: 2% 0 5%;
+}
+.brand img {
+  margin: auto 5%;
+  width: 10%;
+}
+#pricing {
+  text-align: center;
+  padding: 10%;
+  background: #ffd8cc;
+}
+.koto {
+  padding: 0 3%;
+}
+.pricing-h {
+  font-family: "Abril Fatface", cursive;
+  margin-bottom: 10%;
+  color: #ff0075;
+}
+#download {
+  padding: 10%;
+  text-align: center;
+  background: #c7bea2;
+}
+.a {
+  margin-bottom: 5%;
+  font-family: "IM Fell English SC", serif;
+  color: white;
+}
+.b {
+  padding: 2% 5%;
+  margin: 2% 5%;
+  font-size: 1.5rem;
+}
+#footer {
+  padding: 3%;
+  text-align: center;
+  background: black;
+}
+.c {
+  margin: auto 2%;
+}
