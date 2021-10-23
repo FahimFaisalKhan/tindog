@@ -20,8 +20,9 @@ p {
   font-size: 1.5rem;
 }
 .rotate {
-  transform: rotateZ(30deg);
-  margin-left: 30%;
+  transform: rotate(30deg);
+  margin-left: 8%;
+  position: absolute;
 }
 .navbar-brand {
   font-family: Ubuntu;
@@ -40,9 +41,7 @@ p {
 .dwnld-bt {
   margin: 5% 10% 15% 0;
 }
-.title-img {
-  width: 58%;
-}
+
 .navbar-dark .navbar-brand {
   color: #558776;
 }
@@ -122,4 +121,21 @@ em {
 }
 .c {
   margin: auto 2%;
+}
+@media screen and (max-width: 1260px) {
+  .rotate {
+    transform: rotate(0);
+    position: static;
+    width: 80%;
+    margin-left: 15%;
+  }
+  .dwnld-bt {
+    margin: 7% 3%;
+  }
+  .title {
+    text-align: center;
+  }
+  #header {
+    padding: 3% 8%;
+  }
 }
